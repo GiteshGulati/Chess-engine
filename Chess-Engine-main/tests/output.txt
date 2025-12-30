@@ -1,0 +1,133 @@
+Running engine tests...
+----------------------------------------------------------
+FEN: r1bqkbnr/p1pp1ppp/1p6/4p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 2 4
+
+    +------------------------+
+ 8 | r . b q k b n r |
+ 7 | p . p p . p p p |
+ 6 | . p . . . . . . |
+ 5 | . . . . p . . . |
+ 4 | . . B . P . . . |
+ 3 | . . . . . Q . . |
+ 2 | P P P P . P P P |
+ 1 | R N B . K . N R |
+    +------------------------+
+      a b c d e f g h
+
+Side to move: White
+Castling rights: KQkq
+En passant: -
+Halfmove clock: 2
+Fullmove number: 4
+Zobrist key: 0xfa1e2a4d50960115
+Material (W/B): 0 / 0
+
+Depth: 2, Expected: f3f7, Found: f3f7
+Time: 0.000201s, Nodes: 877, NPS: 4356486
+Result: PASSED ✅
+----------------------------------------------------------
+FEN: 6k1/3br3/1p1p2p1/p1pP4/PPPb2r1/3B4/8/3R1K2 b - - 0 49
+
+    +------------------------+
+ 8 | . . . . . . k . |
+ 7 | . . . b r . . . |
+ 6 | . p . p . . p . |
+ 5 | p . p P . . . . |
+ 4 | P P P b . . r . |
+ 3 | . . . B . . . . |
+ 2 | . . . . . . . . |
+ 1 | . . . R . K . . |
+    +------------------------+
+      a b c d e f g h
+
+Side to move: Black
+Castling rights: -
+En passant: -
+Halfmove clock: 0
+Fullmove number: 49
+Zobrist key: 0xc5ebcb914a0e2b41
+Material (W/B): 0 / 0
+
+Depth: 2, Expected: g4g1, Found: g4g1
+Time: 0.000072s, Nodes: 1209, NPS: 16796098
+Result: PASSED ✅
+----------------------------------------------------------
+FEN: 6k1/3b4/1p1p2p1/p1pPbr2/P1P3K1/1P6/4r3/3R4 b - - 1 51
+
+    +------------------------+
+ 8 | . . . . . . k . |
+ 7 | . . . b . . . . |
+ 6 | . p . p . . p . |
+ 5 | p . p P b r . . |
+ 4 | P . P . . . K . |
+ 3 | . P . . . . . . |
+ 2 | . . . . r . . . |
+ 1 | . . . R . . . . |
+    +------------------------+
+      a b c d e f g h
+
+Side to move: Black
+Castling rights: -
+En passant: -
+Halfmove clock: 1
+Fullmove number: 51
+Zobrist key: 0xc6a344ceb431167
+Material (W/B): 0 / 0
+
+Depth: 8, Expected: e2f2, Found: e2f2
+Time: 1.025736s, Nodes: 5155211, NPS: 5025864
+Result: PASSED ✅
+----------------------------------------------------------
+FEN: rnbqkb1r/pppp1ppp/8/3np3/4P3/5P2/PPPP2PP/RNBQKBNR w KQ - 0 1
+
+    +------------------------+
+ 8 | r n b q k b . r |
+ 7 | p p p p . p p p |
+ 6 | . . . . . . . . |
+ 5 | . . . n p . . . |
+ 4 | . . . . P . . . |
+ 3 | . . . . . P . . |
+ 2 | P P P P . . P P |
+ 1 | R N B Q K B N R |
+    +------------------------+
+      a b c d e f g h
+
+Side to move: White
+Castling rights: KQ
+En passant: -
+Halfmove clock: 0
+Fullmove number: 1
+Zobrist key: 0x1077f2255ec2b922
+Material (W/B): 0 / 0
+
+Depth: 2, Expected: e4d5, Found: e4d5
+Time: 0.000045s, Nodes: 5155383, NPS: 113487199242
+Result: PASSED ✅
+----------------------------------------------------------
+FEN: 8/5ppp/1P5k/8/8/6P1/5PKP/8 w - - 0 1
+
+    +------------------------+
+ 8 | . . . . . . . . |
+ 7 | . . . . . p p p |
+ 6 | . P . . . . . k |
+ 5 | . . . . . . . . |
+ 4 | . . . . . . . . |
+ 3 | . . . . . . P . |
+ 2 | . . . . . P K P |
+ 1 | . . . . . . . . |
+    +------------------------+
+      a b c d e f g h
+
+Side to move: White
+Castling rights: -
+En passant: -
+Halfmove clock: 0
+Fullmove number: 1
+Zobrist key: 0x9b4c7e2270232815
+Material (W/B): 0 / 0
+
+Depth: 2, Expected: b6b7, Found: b6b7
+Time: 0.000015s, Nodes: 5155462, NPS: 346213283191
+Result: PASSED ✅
+----------------------------------------------------------
+Test run finished.
